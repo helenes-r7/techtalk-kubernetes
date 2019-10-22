@@ -34,7 +34,6 @@ Install kubectl
 ```bash
 sudo curl --silent --location -o /usr/local/bin/kubectl https://storage.googleapis.com/kubernetes-release/release/v1.14.8/bin/linux/amd64/kubectl
 
-
 sudo chmod +x /usr/local/bin/kubectl
 ```
 
@@ -132,8 +131,10 @@ sudo mv -v /tmp/eksctl /usr/local/bin
 
 ### Create an EKS Cluster
 ```bash
-eksctl create cluster --nodes=3 --alb-ingress-access --region=${AWS_REGION} --name="ekswoksrhop-${USERNAME}"
+eksctl create cluster --nodes=3 --alb-ingress-access --region=${AWS_REGION} --name="eksworkshop-${USERNAME}"
 ```
+
+>**Creating an EKS cluster can take over 10 minutes, so its a good time for a quick coffee and hallway conversation**
 
 ### Test the Cluster
 Confirm your nodes are connected to the Kubernetes cluster
