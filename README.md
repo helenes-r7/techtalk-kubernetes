@@ -4,6 +4,8 @@
 
 Please visit https://ecsworkshop.com to learn more about Kubernetes on AWS
 
+![Microservice](crystal.svg)
+
 ## AWS Login
 After logging into the AWS Console from Okta's AWS - IT Dev tile, you need to elevate your role. Click on your email in the top-right and select `Switch Role`.
 
@@ -186,7 +188,6 @@ Copy the output of this command and use it as the **Token** to _Sign In_
 
 ## Deploy Microservices
 ---
-![Microservice](crystal.svg)
 
 ### Deploy NodeJS Backend
 
