@@ -53,7 +53,13 @@ for command in kubectl jq envsubst
 ```
 
 ### Attach the IAM Role to your Workspace
-Your Cloud9 instance needs permissions to access the AWS API for this demo. We need to  update the underlying EC2 instance to use a Instance Profile with the necessary permisisons. Find your EC2 instance (search for your username), then choose **Actions / Instance Settings / Attach/Replace IAM Role**
+Your Cloud9 instance needs permissions to access the AWS API for this demo. We need to  update the underlying EC2 instance to use a Instance Profile with the necessary permisisons. 
+
+Click on the circled letter in the upper-right hand corner, and then ***Manage EC2 Instance**
+
+![Cloud9 Manage EC2 Instance](c9manageec2instance.png)
+
+Find your EC2 instance (search for your username), then choose **Actions / Instance Settings / Attach/Replace IAM Role**
 
 ![Cloud9 Instance Role](c9instancerole.png)
 
