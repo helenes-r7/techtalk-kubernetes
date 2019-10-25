@@ -7,9 +7,10 @@ Please visit https://ecsworkshop.com to learn more about Kubernetes on AWS
 ![Microservice](crystal.svg)
 
 ## AWS Login
+
 After logging into the AWS Console from Okta's AWS - IT Dev tile, you need to elevate your role. Click on your email in the top-right and select `Switch Role`.
 
-`insert picture here`
+![AWS Switch Role](switchroles.png)
 
 Use the following information when Switching Role
 ```
@@ -17,6 +18,12 @@ Account:        204451763192
 Role:           assumable/developer
 Display Name:   developer@itdev
 ```
+
+## Set the Region
+
+In the top-right corner, you'll probably see _N. Virginia_ as the selected region in the drop-down.
+
+**Click that drop-down and select the `US West (Oregon)` region**
 
 ## Set up Cloud9 IDE
 ---
